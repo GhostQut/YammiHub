@@ -507,8 +507,11 @@ local list = {
 	--Anime Defense Simulator
 	[4205109410]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/AnimeDefenseSimulatorFree.lua', true))()",
 
-	--Anime Soul Simulator
+	--Anime Soul Simulator	
 	[4098816381]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/AnimeSoulSimulatorFree.lua', true))()",
+
+	--SPTS:AU
+	[12761410397]="loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/Scripts/main/Spts.lua', true))()",
 }
 
 local listPre = {
@@ -583,25 +586,28 @@ local listPre = {
 	
 	--Anime Soul Simulator
 	[4098816381]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/AnimeSoulSimulatorPre.lua', true))()",
+	
+	--SPTS:AU
+	[12761410397]="loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/Scripts/main/Spts.lua', true))()",
 }
 
 --MakePrGui()
 ttytPr()
 CreateSupportList({"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Soul Simulator","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
-"Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
+"Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!", "SPTS:AU",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
-_G.HoHoLoaded = true
+_G.FreemLoaded = true
 if getgenv().Key and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
 	loadstring(listPre[tonumber(game.GameId)])()
 elseif not getgenv().Key and list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
 else
-	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub")
+	game.Players.LocalPlayer:Kick("game not support")
 end
 
-local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
+local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/YammiHub/main/LoaderV1.lua'))()"
 if getgenv().Key then
 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 end
