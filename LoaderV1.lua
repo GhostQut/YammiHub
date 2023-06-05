@@ -5,5 +5,5 @@ local supportedGames = {
 },
 }
 if supportedGames[game.placeId] then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostQut/Scripts/main/"..supportedGames[game.placeId][2]..".lua"))()end
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostQut/Scripts/main/"..supportedGames[game.placeId][2]..".lua"))()
 end
