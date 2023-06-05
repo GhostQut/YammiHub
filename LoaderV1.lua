@@ -511,7 +511,7 @@ local list = {
 	[4098816381]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/AnimeSoulSimulatorFree.lua', true))()",
 
 	--SPTS:AU
-	[12761410397]="loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/Scripts/main/Spts.lua', true))()",
+	[12761410397]="loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/Scripts/main/Spts.lua'))()",
 }
 
 local listPre = {
@@ -588,7 +588,7 @@ local listPre = {
 	[4098816381]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/AnimeSoulSimulatorPre.lua', true))()",
 	
 	--SPTS:AU
-	[12761410397]="loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/Scripts/main/Spts.lua', true))()",
+	[12761410397]="loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/Scripts/main/Spts.lua'))()",
 }
 
 --MakePrGui()
@@ -600,8 +600,6 @@ _G.FreemLoaded = true
 if listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
 	loadstring(listPre[tonumber(game.GameId)])()
-elseif not list[game.GameId] ~= nil then
-	loadstring(list[tonumber(game.GameId)])()
 else
 	game.Players.LocalPlayer:Kick("game not support")
 end
