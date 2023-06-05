@@ -1,5 +1,3 @@
-local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/YammiHub/main/LoaderV1.lua'))()"
-
 local supportedGames = {
 	[12761410397] = {
 		[1] = "SPTSAU",
