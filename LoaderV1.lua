@@ -597,19 +597,16 @@ CreateSupportList({"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","Ki
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
 _G.FreemLoaded = true
-if getgenv().Key and listPre[game.GameId] ~= nil then
+if listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
 	loadstring(listPre[tonumber(game.GameId)])()
-elseif not getgenv().Key and list[game.GameId] ~= nil then
+elseif not list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
 else
 	game.Players.LocalPlayer:Kick("game not support")
 end
 
 local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/YammiHub/main/LoaderV1.lua'))()"
-if getgenv().Key then
-	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
-end
 
 local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport
 queueteleport(path)
