@@ -1,3 +1,4 @@
+local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/YammiHub/main/LoaderV1.lua'))()"
 
 local supportedGames = {
 	--BedWars
@@ -76,5 +77,6 @@ local supportedGames = {
 	[12761410397]="loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostQut/Scripts/main/Spts.lua'))()",
 }
 if supportedGames[game.placeId] then
-	loadstring(supportedGames[tonumber(game.GameId)])()
+local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport
+queueteleport(path)
 end
