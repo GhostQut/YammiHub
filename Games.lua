@@ -1,4 +1,4 @@
-local supportedGames = {
+getgenv().Games = {
 	[12761410397] = {https://raw.githubusercontent.com/GhostQut/Scripts/main/SPTSAU.lua},
 	[11545598432] = {
 		https://raw.githubusercontent.com/GhostQut/Scripts/main/AFSX.lua},
