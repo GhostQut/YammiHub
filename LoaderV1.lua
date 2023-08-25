@@ -10,7 +10,7 @@ local list = {
 	["6284583030"] = 'https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Pet-Simulator-X';
 	["7722306047"] = 'https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Pet-Simulator-X';
 	["10321372166"] = 'https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Pet-Simulator-X';
-	["301549746"] = 
+	["301549746"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/RoGhoul.lua';
 }
 
 for id, url in next, list do
