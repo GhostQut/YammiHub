@@ -8,6 +8,7 @@ local list = {
 	["2753915549"] = 'https://raw.githubusercontent.com/1201for/V.G-Hub/main/Blox-Fruit';
 	["8737602449"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/PLSDONATE.lua';
 	["15502339080"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/TradingPlaza99.lua';
+	["8737899170"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/PetSim99.lua';
 	["301549746"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/RoGhoul.lua';
 	["13772394625"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/BladeBall.lua';
 }
