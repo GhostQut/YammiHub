@@ -13,7 +13,8 @@ Currently, YammiHub supports theese ways of executing:
 
 - [x] Loadstring
 - [x] Functions
-- [x] Code executing from PC
+- [x] Code executing from PC and Mobile
+
 
 Execute this into your executor and execute.
 
