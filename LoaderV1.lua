@@ -12,6 +12,7 @@ local list = {
 	["301549746"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/RoGhoul.lua';
 	["13772394625"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/BladeBall.lua';
 	["14819490378"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/SwordBurst3.lua';
+	["990364410"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/SurviveTheNight.lua';
 }
 
 for id, url in next, list do
