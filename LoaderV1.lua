@@ -21,5 +21,3 @@ for id, url in next, list do
         loadstring(game:HttpGet(url))(); break
     end
 end
-
-
