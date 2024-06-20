@@ -14,6 +14,7 @@ local list = {
 	["14819490378"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/SwordBurst3.lua';
 	["990364410"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/SurviveTheNight.lua';
 	["17017769292"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/AnimeDefenders.lua';
+	["17018663967"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/AnimeDefenders.lua';
 	["17450551531"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/GymLeague.lua';
 }
 
