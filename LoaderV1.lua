@@ -1,11 +1,5 @@
-if game.CoreGui.DrRay: then
+if game:GetService('CoreGui'):FindFirstChild("DrRay") then
 	game.CoreGui.DrRay:Destroy()
-end
-
-for i, v in pairs(game.CoreGui:GetChildren) do
-    if v.Name == "DrRay" then
-        v:Destroy()
-    end
 end
 
 local list = {
