@@ -10,6 +10,7 @@ local list = {
 	["2753915549"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/BloxFruits.lua';
 	["4442272183"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/BloxFruits2.lua';
 	["2753915549"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/BloxFruits3.lua';
+	["16732694052"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/Fisch.lua';
 	["8737602449"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/PLSDONATE.lua';
 	["15502339080"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/TradingPlaza99.lua';
 	["8737899170"] = 'https://raw.githubusercontent.com/GhostQut/Scripts/main/PetSim99.lua';
